@@ -12,7 +12,8 @@ Pan is a game ...
 ```
 python3 -m venv venv
 source venv/bin/activate
-pip install .
+python3 setup.py install
+chmod +x pan
 ```
 
 ### How to run
@@ -22,7 +23,7 @@ pan run
 
 ### How to test
 ```
-pan tests
+python3 setup.py test
 ```
 
 For more options type
