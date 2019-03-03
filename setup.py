@@ -15,7 +15,7 @@ setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'click',
-        'pytest',
+        'pytest==3.6',
         'pytest-cov',
         'pyyaml',
         'flake8',
