@@ -19,6 +19,7 @@ setup(
         'pytest-cov',
         'pyyaml',
         'flake8',
+        'coveralls',
     ],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
