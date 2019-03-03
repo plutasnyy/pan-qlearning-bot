@@ -4,7 +4,7 @@ branches:
   only:
   - gh-pages
   - /.*/
-  - 
+  -
 # Set the build language to Python
 language: python
 
@@ -17,7 +17,7 @@ install:
 
 # Run the unit test
 script:
-  - coverage run setup.py test
+  - coverage run --source=pan-qlearning-bot setup.py test
 
 # Push the results back to codecov
 after_success:
