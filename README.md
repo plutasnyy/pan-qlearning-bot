@@ -1,4 +1,6 @@
 # Pan Qlearning Bot
+[![Coverage Status](https://coveralls.io/repos/github/plutasnyy/pan-qlearning-bot/badge.svg?branch=feature%2Fsetup-repository)](https://coveralls.io/github/plutasnyy/pan-qlearning-bot?branch=feature%2Fsetup-repository)
+
 This repository contains a python script to play in Pan game with a bot which uses RNN and Qlearning in a learning process
 
 # Pan
