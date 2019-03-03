@@ -1,0 +1,6 @@
+run:
+  min_players: 2
+  max_players: 8
+
+learn:
+  alpha: 0.6
